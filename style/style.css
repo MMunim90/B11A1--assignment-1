@@ -81,14 +81,11 @@
 .future-container {
   width: 1280px;
   height: 765px;
-  background-color: rgba(231, 222, 222, 0.171);
-  border: 1px solid gray;
   justify-content: space-around;
   align-items: center;
   gap: 64;
   padding: 80px 100px 80px 100px;
   margin: 0 auto;
-  margin-top: 80px;
 }
 
 .digital-box {
@@ -153,9 +150,49 @@
   font-size: 16px;
   font-weight: 400;
 }
-.future-container2{
-    background-image: url('../assets/quote-bg.png');
-    background-repeat: no-repeat;
-    padding: 10px 2px;
-    margin: 48px;
+.future-container2 {
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 20px 32px;
+  padding: 48px 24px 48px 24px;
+  border: 1px solid gray;
+  border-radius: 24px;
+  margin: 0 auto;
+  margin-top: 32px;
+  width: 1230px;
+  
+}
+.recent {
+  margin-top: 80px;
+  border-radius: 24px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 100px 80px 100px;
+  text-align: left;
+  width: 1280px;
+  height: 1406px;
+  margin: 0 auto;
+}
+.box {
+  display: flex;
+  align-items: center;
+  width: 1280px;
+  height: 402px;
+  margin: 0 auto;
+  margin-top: 48px;
+  padding: 48px;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 16px;
+  gap: 42px;
+}
+.recent-pic {
+  border-radius: 24px;
+}
+.recent-box-header{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.gappy{
+    margin-top: 32px;
 }
