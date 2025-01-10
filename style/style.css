@@ -215,6 +215,9 @@
   width: 252px;
   height: 128px;
 }
+.taka-value:hover {
+  background: rgb(198, 228, 214);
+}
 .taka-value1 {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
@@ -222,6 +225,9 @@
   padding: 40px;
   width: 252px;
   height: 128px;
+}
+.taka-value1:hover {
+  background: rgb(255, 255, 255);
 }
 .taka-size {
   color: rgba(14, 14, 14, 0.8);
@@ -243,4 +249,51 @@
 }
 
 /* footer section start */
+footer {
+  width: 1280px;
+  height: 250px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 80px 100px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  text-align: center;
+}
 
+.last-btn {
+  box-sizing: border-box;
+  border-radius: 0px 8px 8px 0px;
+  background-color: rgb(0, 106, 80);
+  padding: 15px 34px 15px 34px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  border-left: none;
+  border-left: 0px;
+}
+
+.last-input {
+  border-radius: 8px 0px 0px 8px;
+  padding: 18px 40px 18px 40px;
+  background: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  border-right: 0px;
+}
+
+.last-footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 130px auto;
+}
+.last-footer-header {
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: 700;
+}
+.end{
+    padding: 10px;
+    margin: 10px;
+}
