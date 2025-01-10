@@ -64,8 +64,98 @@
   margin: 80px 60px;
 }
 .header-p1 {
-    color: rgba(14, 14, 14, 0.5);
-    font-size: 24px;
-    font-weight: 500px;
-    text-align: left;
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500px;
+  text-align: left;
+}
+
+/* main section */
+
+.target-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.future-container {
+  width: 1280px;
+  height: 765px;
+  background-color: rgba(231, 222, 222, 0.171);
+  border: 1px solid gray;
+  justify-content: space-around;
+  align-items: center;
+  gap: 64;
+  padding: 80px 100px 80px 100px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.digital-box {
+  text-align: justify;
+  width: 411px;
+  height: 325px;
+  padding: 32px;
+  border: 1px dotted gray;
+  border-radius: 16px;
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.green-box {
+  text-align: justify;
+  width: 411px;
+  height: 325px;
+  padding: 32px;
+  border: 1px dotted gray;
+  border-radius: 16px;
+  background-color: rgb(198, 228, 214);
+}
+.modern-box {
+  text-align: justify;
+  width: 411px;
+  height: 325px;
+  padding: 32px;
+  border: 1px dotted gray;
+  border-radius: 16px;
+  background-color: rgb(247, 235, 207);
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.box-content-bottom {
+  margin-bottom: 24px;
+}
+.sb1 {
+  background-color: rgb(84, 144, 245);
+}
+.sb2 {
+  background-color: rgb(9, 161, 92);
+}
+.sb3 {
+  background-color: rgb(255, 194, 57);
+}
+.future-header {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.future-para {
+  margin-bottom: 32px;
+}
+.in-box-header {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+}
+.in-box-para {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.future-container2{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    padding: 10px 2px;
+    margin: 48px;
 }
