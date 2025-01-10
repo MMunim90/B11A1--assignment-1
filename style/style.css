@@ -160,7 +160,6 @@
   margin: 0 auto;
   margin-top: 32px;
   width: 1230px;
-  
 }
 .recent {
   margin-top: 80px;
@@ -174,25 +173,74 @@
   margin: 0 auto;
 }
 .box {
-  display: flex;
-  align-items: center;
   width: 1280px;
   height: 402px;
   margin: 0 auto;
-  margin-top: 48px;
-  padding: 48px;
+}
+.box1 {
+  display: flex;
   box-shadow: 4px 4px 8px gray;
   border-radius: 16px;
   gap: 42px;
+  padding: 48px;
+  margin-top: 48px;
 }
 .recent-pic {
   border-radius: 24px;
 }
-.recent-box-header{
-    font-weight: 700;
-    font-size: 32px;
-    color: rgba(14, 14, 14, 0.8);
+.recent-box-header {
+  font-weight: 700;
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
 }
-.gappy{
-    margin-top: 32px;
+.gappy {
+  margin-top: 32px;
 }
+.donate {
+  margin-top: 180px;
+  text-align: center;
+}
+.taka {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 24px;
+  margin-top: 52px;
+}
+.taka-value {
+  border: 1px solid gray;
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  width: 252px;
+  height: 128px;
+}
+.taka-value1 {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-color: rgb(198, 228, 214);
+  padding: 40px;
+  width: 252px;
+  height: 128px;
+}
+.taka-size {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+}
+#first {
+  margin-top: 32px;
+  align-items: center;
+  padding: 20px 40px 20px 40px;
+  background: rgb(255, 255, 255);
+  width: 1032px;
+  height: 64px;
+  border-radius: 24px;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* footer section start */
+
